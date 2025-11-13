@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRM</title>
+    <style>
+      html, body, #root {
+        height: 100%;
+      }
+      /* trava o scroll da página; só as áreas com overflow:auto vão rolar */
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial;
+      }
+      * { box-sizing: border-box }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
